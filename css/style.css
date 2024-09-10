@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(196, 194, 194);
+    border: 2px solid #2A2A2A
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 194, 194);
+    border: 2px solid #2A2A2A;
+}
+
+.splash {
+    text-align: center
+}
+
+.splash h1 {
+    font-family: "Yrsa", serif; 
+    font-size: 2.5em; 
+    color: #2A2A2A; 
+}
+
+.splash img {
+    border: 3px solid #2A2A2A;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.splash p {
+    font-family: serif;
+    font-size: 1em;
+}
+
+hr {
+    border: 3px;
+    border-style: double;
+}
+
+section h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    color: #353535;
+    font-size: 4vh;
+}
+
+ul {
+    font-style: italic;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(42, 87, 145);
+}
+  
+a:hover {
+    text-decoration: underline;
+    font-size: 110%;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.cardimg{
+    height: 120px;
+}
+
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one-col {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 8px;
+    border: 1px solid #2A2A2A;
+    background-color: rgb(195, 192, 192);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.textboxes {
+    font-size: 1rem;
+    border-radius: 2px;
+}
